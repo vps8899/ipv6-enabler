@@ -29,20 +29,20 @@
 ### 方式一：在线运行（推荐）
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/你的用户名/ipv6-enabler/main/enable_ipv6.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/vps8899/ipv6-enabler/main/enable_ipv6.sh)
 ```
 
 或使用 wget：
 
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/你的用户名/ipv6-enabler/main/enable_ipv6.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/vps8899/ipv6-enabler/main/enable_ipv6.sh)
 ```
 
 ### 方式二：下载后运行
 
 ```bash
 # 下载脚本
-wget https://raw.githubusercontent.com/你的用户名/ipv6-enabler/main/enable_ipv6.sh
+wget https://raw.githubusercontent.com/vps8899/ipv6-enabler/main/enable_ipv6.sh
 
 # 添加执行权限
 chmod +x enable_ipv6.sh
@@ -186,3 +186,4 @@ curl -6 https://ipv6.google.com
 ---
 
 如果觉得这个脚本对您有帮助，请给个 ⭐ Star 支持一下！
+
